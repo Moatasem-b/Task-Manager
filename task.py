@@ -23,6 +23,7 @@ class Task:
         return self.__is_completed
     
     def clear(self):
+        print("Hello")
         self.__name = None
         self.__deadline = None
         self.__is_completed = None
